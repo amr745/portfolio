@@ -1,9 +1,14 @@
 {
+  "homepage": "http://amr745.github.io/portfolio",
   "name": "portfolio",
   "version": "1.0.0",
   "description": "<h1 align=\"center\"> ⚡️ DevFolio ⚡️</h1>",
   "main": "index.js",
   "scripts": {
+    "start": "react-scritps start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +20,7 @@
   "bugs": {
     "url": "https://github.com/amr745/portfolio/issues"
   },
-  "homepage": "https://github.com/amr745/portfolio#readme"
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
 }
