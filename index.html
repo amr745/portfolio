@@ -6,35 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     <!-- Title: add your Portfolio websites's title here -->
-    <title>[Ashley Richard] | Developer</title>
+    <title>Ashley Richard | Web Developer</title>
 
     <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
-    <meta name="keywords" content="[amr745], [Ashley M. Richard], JavaScript" />
+    <meta name="keywords" content="amr745, Ashley Richard, JavaScript, HTML, Css, ReactJS" />
 
     <!-- Improve your SEO by adding a small descrption of you -->
-    <meta name="description" content="[Ashley M. Richard] | Developer" />
+    <meta name="description" content="Ashley Richard | Web Developer" />
 
     <!-- Add a your png Logo to the assets folder and change the href attr accordingly  -->
-    <link rel="icon" type="image/png" href="./assets/port-logo.png" />
+    <link rel="icon" type="image/png" href="./assets/logo.png" />
 
     <!-- Add your primary-theme color for the value of content -->
-    <meta name="theme-color" content="#4900ff" />
+    <meta name="theme-color" content="#00f59b" />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <!-- Again fill content attr with the URL of this portfolio you'll host -->
-    <meta property="twitter:url" content="https://devfolio.js.org" />
+    <meta property="twitter:url" content="ashleyrichard.div" />
     <!-- Recommended to use the same text used within <title> element -->
-    <meta property="twitter:title" content="[Your name here] | Developer" />
+    <meta property="twitter:title" content="Ashley Richard | Web Developer" />
     <!-- short description that shows up while your portfolio is shared -->
     <meta
       property="twitter:description"
-      content="Made using DevFolio Template"
+      content="Ashley Richard's Portfolio"
     />
     <!-- Fill content with the URL to the thumbnail image that you'll put in the assets folder -->
     <meta
       property="twitter:image"
-      content="https://anilseervi.vercel.app/assets/devfolio.png"
+      content="https://ashleyrichard.dev/assets/cover.png"
     />
 
     <!-- link tags -->
@@ -52,7 +52,7 @@
 
     <!-- Remove Google Analytics once you have your portfolio website set-up -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
+    <!-- <script
       async
       src="https://www.googletagmanager.com/gtag/js?id=UA-122228201-4"
     ></script>
@@ -64,7 +64,7 @@
       gtag("js", new Date());
 
       gtag("config", "UA-122228201-4");
-    </script>
+    </script> -->
     <!-- End of Google Analytics -->
   </head>
   <body>
@@ -74,7 +74,7 @@
         <h1 class="hero-title">
           Hi, my name is <span class="text-color-main name">Ashley Richard</span>
           <br />
-          I'm a Web Developer.
+          I like building projects using JavaScript, HTML, CSS and ReactJS.
         </h1>
         <p class="hero-cta">
           <a class="cta-btn cta-btn--hero" href="#about">Get in touch</a>
@@ -100,10 +100,10 @@
           </div>
           <div class="about-wrapper__info">
             <p class="about-wrapper__info-text">
-              I am a Software Engineer with a passion for finding creative solutions to complex problems while writing clean and precise code. A teacher at heart, I find fulfillment in collaboration and having clear and effective communication. Driven to create game-changing opportunities in the world of technology, I seek projects that will allow me to apply my versatile skill set.
+              I am a Web Developer with a passion for finding creative solutions to complex problems while writing clean and precise code. A teacher at heart, I find fulfillment in collaboration and having clear and effective communication. Driven to create game-changing opportunities in the world of technology, I seek projects that will allow me to apply my versatile skill set.
             </p>
             <span class="about-wrapper__cta">
-              <a href="https://docs.google.com/document/d/1ruQJ_jWnqAoMzxY7CTD8nCZRnMOx7MGk/edit?usp=sharing&ouid=103166341895053734175&rtpof=true&sd=true" class="cta-btn cta-btn--resume">View Resume</a>
+              <a href="https://drive.google.com/file/d/1vU5PXLrs-BS1IMifLGj7-RYhtkaKccdU/view?usp=sharing" class="cta-btn cta-btn--resume" target="_blank">View Resume</a>
             </span>
           </div>
         </div>
@@ -116,6 +116,146 @@
       <div class="container">
         <div class="project-wrapper">
           <h2 class="section-title dark-blue-text">Projects</h2>
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Is it Gay?</h3>
+              <p class="project-wrapper__text-info">
+                A full CRUD queer culture application that uses authentication to store and handle information from the queer diaspora using NestJs, ReactJS, and MongoDB.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://amr745.github.io/isitgay/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >See Live</a
+                >
+                <a href="https://github.com/amr745/isitgay" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="https://amr745.github.io/isitgay/" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/capstone.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">CinemaLog</h3>
+              <p class="project-wrapper__text-info">
+                CinemaLog is a full CRUD movie managment application that uses authentication and authorization to store and handle information about your favorite films using Django, Postgres, and AWS.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://cinemalog-ar-83.herokuapp.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >See Live</a
+                >
+                <a href="https://github.com/amr745/cinemalog" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="https://cinemalog-ar-83.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/project4.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Silver Snacks Emporium</h3>
+              <p class="project-wrapper__text-info">
+                Silver Snacks Emporium is a full CRUD eCommerce application that stores and handles products, purchases, and user authentication information using React and MongoDB.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://amr745.github.io/silver-snacks-frontend"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >See Live</a
+                >
+                <a href="https://github.com/amr745/silver-snacks-frontend" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="https://amr745.github.io/silver-snacks-frontend" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/project3.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Fido Fame</h3>
+              <p class="project-wrapper__text-info">
+                A full CRUD application that displays information about Famous Dogs using the MongoDB.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://fidofame.herokuapp.com/fidofame"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >See Live</a
+                >
+                <a href="https://github.com/amr745/FidoFame" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="https://fidofame.herokuapp.com/fidofame" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/project2.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
 
           <!-- Each .row is a project -->
           <article class="row">
@@ -150,44 +290,6 @@
               </a>
             </div>
           </article>
-          <!-- /END Project -->
-
-          <!-- Each .row is a project -->
-          <!-- <article class="row">
-            <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">Project Title</h3>
-              <p class="project-wrapper__text-info">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Deleniti voluptas, sit nam perspiciatis tempore aspernatur ullam
-                necessitatibus impedit repellendus vero sed ipsa eos beatae ab
-                sint saepe nostrum! Enim, perferendis.
-              </p>
-              <div class="project-wrapper__text-btns">
-                <a
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="cta-btn cta-btn--hero cta-btn--projects"
-                  >See Live</a
-                >
-                <a href="#" target="_blank" class="cta-btn text-color-main"
-                  >Source Code</a
-                >
-              </div>
-            </div>
-
-            <div class="project-wrapper__image">
-              <a href="#" target="_blank" rel="noopener noreferrer">
-                <div class="thumbnail rounded">
-                  <img
-                    src="./assets/project.png"
-                    class="img-fluid"
-                    alt="Project Image"
-                  />
-                </div>
-              </a>
-            </div>
-          </article> -->
           <!-- /END Project -->
 
           <!-- Each .row is a project -->
@@ -278,7 +380,7 @@
         </div>
         <hr />
         <p class="footer__text">
-          &copy; <span id="year"></span> .com
+          &copy; <span id="year"></span> ashleyrichard.dev
         </p>
       </div>
     </footer>
